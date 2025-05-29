@@ -6,7 +6,7 @@ import HeroBanner from "./HeroBanner";
 
 function HeroSection() {
   return (
-    <div className="h-[791px] flex justify-around items-center px-[121px] bg-linear-to-bl from-50% to-[#fe8c4f3c] from-[#FDEDE5]">
+    <div className="h-[791px] flex justify-around items-center px-[121px] bg-linear-to-bl from-50% to-[#fe8c4f3c] from-[#FDEDE5] gap-[15px]">
       {/* Text Section */}
       <div className="w-[584px]">
         <h1 className="text-[100px] font-rancho text-main">Hungry?</h1>

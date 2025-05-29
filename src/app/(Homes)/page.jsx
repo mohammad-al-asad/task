@@ -3,6 +3,8 @@ import CatagorySection from "@/components/CatagorySection";
 import PopularItems from "@/components/PopularItems";
 import FoodCards from "@/components/FoodCards";
 import RestaurentCards from "@/components/RestaurentCards";
+import MobileApp from "@/components/MobileApp";
+import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <PopularItems itemTitle="Restaurent Near me">
         <RestaurentCards/>
       </PopularItems>
+      <MobileApp/>
+      <TestimonialSection/>
     </div>
   );
 }

@@ -1,5 +1,12 @@
-import { Geist, Geist_Mono, Lobster_Two, Poppins, Rancho } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Lobster_Two,
+  Poppins,
+  Rancho,
+} from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,19 +20,19 @@ const geistMono = Geist_Mono({
 
 const rancho = Rancho({
   variable: "--font-rancho",
-  subsets: ['latin'],
-  weight: '400',
-})
+  subsets: ["latin"],
+  weight: "400",
+});
 const poppins = Poppins({
   variable: "--font-poppins",
-  subsets: ['latin'],
-  weight: ['400','700'],
-})
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 const lobsterTwo = Lobster_Two({
   variable: "--font-lobsterTwo",
-  subsets: ['latin'],
-  weight: ['400','700'],
-})
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -39,6 +46,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${rancho.variable} ${poppins.variable} ${lobsterTwo.variable} font-poppins antialiased`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );

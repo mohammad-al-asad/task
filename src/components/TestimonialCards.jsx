@@ -105,9 +105,9 @@ const TestimonialCards = () => {
             ))}
           </div>
         </div>
-
-        {/* Dots */}
       </div>
+      
+      {/* Dots */}
       <div className="flex justify-center mt-6 space-x-2">
         {testimonials.map((_, index) => (
           <button

@@ -21,7 +21,7 @@ function HeaderNav() {
         </div>
         <Link href="/profile" className="h-[65px] w-[65px] relative">
           <Image
-            src="/profile.jpg"
+            src="/avatars/profile.jpg"
             alt="profile picture"
             fill
             className="absolute rounded-full border border-main"

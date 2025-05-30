@@ -81,7 +81,7 @@ function ProfileNavigation() {
         <div className="flex justify-center items-center absolute top-28 h-full w-full">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/avatars/profile.jpg"
+              src="/avatars/DP.png"
               alt="profile picture"
               height={100}
               width={100}

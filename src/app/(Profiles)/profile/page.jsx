@@ -16,7 +16,7 @@ function Profile() {
   return (
     <div className="flex flex-1 flex-col">
       {/* Profile Details */}
-      <div className="flex flex-col rounded-[10px] w-[895px] mb-[46px]">
+      <div className="flex flex-col rounded-[10px] max-w-[895px] mb-[46px]">
         <div className="rounded-[10px] p-6 h-[468px] bg-white">
           <p className="font-[500] text-[24px] text-black mb-[30px]">Profile</p>
           <div className="space-y-[24px]">
@@ -29,7 +29,7 @@ function Profile() {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   type="text"
-                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none"
+                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none w-[760px]"
                 />
               </div>
             </ProfileBlock>
@@ -41,8 +41,8 @@ function Profile() {
                 <Input
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  type="text"
-                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none"
+                  type="email"
+                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none w-[760px]"
                 />
               </div>
             </ProfileBlock>
@@ -55,7 +55,7 @@ function Profile() {
                   value={address}
                   onChange={(e) => setAddress(e.target.value)}
                   type="text"
-                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none"
+                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none w-[760px]"
                 />
               </div>
             </ProfileBlock>
@@ -67,7 +67,7 @@ function Profile() {
       </div>
 
       {/* Change Password */}
-      <div className="flex flex-col rounded-[10px] w-[895px]">
+      <div className="flex flex-col rounded-[10px] max-w-[895px]">
         <div className="rounded-[10px] p-6 h-[468px] bg-white">
           <p className="font-[500] text-[24px] text-black mb-[30px]">
             Change Password
@@ -82,7 +82,7 @@ function Profile() {
                 </p>
                 <Input
                   type="password"
-                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none"
+                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none w-[760px]"
                 />
               </div>
             </ProfileBlock>
@@ -94,7 +94,7 @@ function Profile() {
                 <p className="text-[16px] font-[500] ml-2.5">New Password:</p>
                 <Input
                   type="password"
-                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none"
+                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none w-[760px]"
                 />
               </div>
             </ProfileBlock>
@@ -107,7 +107,7 @@ function Profile() {
                 </p>
                 <Input
                   type="password"
-                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none"
+                  className="shadow-none text-[#5C5C5C] font-[400] text-[16px] focus-visible:ring-0 border-none w-[760px]"
                 />
               </div>
             </ProfileBlock>

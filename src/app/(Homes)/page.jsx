@@ -18,7 +18,9 @@ export default function Home() {
         <RestaurentCards/>
       </PopularItems>
       <MobileApp/>
-      <TestimonialSection/>
+      <div className="flex justify-center">
+        <TestimonialSection/>
+      </div>
     </div>
   );
 }

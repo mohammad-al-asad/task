@@ -84,7 +84,7 @@ function Footer() {
   const QuickLink1 = ["About Us", "How We works", "Career"];
   const QuickLink2 = ["Privacy Policies", "Terms & Conditions", "Faq"];
   return (
-    <footer className="bg-black h-[440px] justify-between flex flex-col">
+    <footer className="bg-black h-[440px] justify-between flex flex-col items-center">
       <div className="px-[94px] pt-[47px] flex gap-[75px]">
         {/* Social Media */}
         <SocialMedia />

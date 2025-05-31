@@ -144,11 +144,11 @@ function FoodCards() {
     },
   ];
   return (
-    <div className="flex mt-[50px] gap-[40px]">
+    <div className="flex flex-wrap mt-[50px] gap-[40px]">
       {foods.map((item, index) => (
-        <div key={index} className="rounded-xl bg-white">
+        <div key={index} className="rounded-xl w-[260px] bg-white">
           {/* Image Section*/}
-          <div className="w-[282px] h-[175px] relative">
+          <div className="w-[260px] h-[175px] relative">
             {/* Image */}
             <Image
               src={item.image}

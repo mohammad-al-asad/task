@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 function PopularItems({ children, itemTitle }) {
   return (
-    <div className="px-[123px] my-[75px] h-[470px]">
+    <div className="px-[123px] my-[75px] min-h-[470px]">
       <div className="flex justify-between">
         <div>
           <p className="font-[400] text-[20px] font-lobsterTwo">Popular Food</p>

@@ -3,9 +3,9 @@ import React from "react";
 
 function MobileApp() {
   return (
-    <div className="h-[812px] px-[120px] flex relative">
+    <div className="h-[812px] px-[120px] flex justify-center relative">
       {/* Description */}
-      <div className=" w-[756px] p-[68px] mt-[120px]">
+      <div className="w-[756px] pl-0 p-[68px] mt-[120px]">
         {/* Texts */}
         <div className="mb-[24px]">
           <p className="font-[400] text-[20px] font-lobsterTwo">Restaurants</p>
